@@ -1,4 +1,4 @@
-# IshBlog
+# IshBlog (UNSTABLE)
 
 This is a hobby project for me trying to come up with a set of easy to use common modules using Rails 4, Bootstrap and some other very cool stuff.
 
