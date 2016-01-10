@@ -5,5 +5,6 @@ module IshBlog
     require 'devise'
     require 'cancan'
     require 'rolify'
+    require 'sass-rails'
   end
 end
