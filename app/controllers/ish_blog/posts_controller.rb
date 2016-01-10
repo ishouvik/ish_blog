@@ -8,7 +8,7 @@ module IshBlog
 
     # GET /posts
     def index
-      @posts = Post.sorted.page(params[:page])
+      @posts = Post.all
     end
 
     # GET /posts/1

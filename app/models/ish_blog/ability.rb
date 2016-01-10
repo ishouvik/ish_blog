@@ -9,6 +9,7 @@ module IshBlog
       elsif user.has_role? :user
         can :manage, Post, owner: user
         can :create, Post
+        can :read,   :all
       else
         can :read, :all
       end
